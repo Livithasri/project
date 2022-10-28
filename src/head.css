@@ -1,0 +1,22 @@
+/* .head{
+    
+    background-color: coral;
+    height: 100%;
+
+    
+    width: 100%;
+} */
+.img{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: gold;
+}
+.right{
+    width: 50%;
+    float: right;
+    background-color: lightgreen;
+}

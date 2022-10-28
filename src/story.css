@@ -1,0 +1,21 @@
+.cont{
+    background-color:lightsalmon;
+    margin-top: 10%;
+ margin-left: 20%;
+        margin-right: 20%;
+        padding: 10%;
+        Z-index: 100;
+        height: 50%;
+}
+.nar{
+    background-color: hotpink;
+}
+.nar1{
+    margin-top: 100px;
+}
+.arrow{
+    font-size: 50px;
+}
+.size{
+    font-size: x-large;
+}

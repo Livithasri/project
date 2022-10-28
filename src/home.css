@@ -1,0 +1,14 @@
+ body{
+    background-color: aquamarine;
+} 
+
+.class1{
+    margin-top: 10%;
+    margin-left: 10%;
+    /* margin-right: 20%; */
+    padding: 10%;
+    width: 80%;
+    /* Z-index: 100; */
+    height: 3000px;
+    background-color: rgb(174, 255, 0);
+}

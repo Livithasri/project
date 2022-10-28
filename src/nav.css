@@ -1,0 +1,36 @@
+
+ul {
+    list-style-type: none;
+    margin-block-start: 5%;
+    overflow: hidden;
+    background-color: #302e2e;
+    text-align: center;
+  }
+  .size{
+    font-size:x-large;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+   
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+  
+  }
+  body{
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: chocolate;
+  }
+  .head{
+    text-align: center;
+    
+  }
+  
