@@ -60,10 +60,13 @@ import React from "react";
 import './contact.css';
 import img from './download.png';
 import img1 from './images1.jpg';
+import App2 from "./App2";
 import Nav from './nav';
+
 
 function Contact(){
     return <React.Fragment>
+        
         <ul className="size">
   <li><a href="/">HOME</a></li>
   <li><a href="/Contact">DRAWINGS</a></li>
@@ -80,6 +83,7 @@ function Contact(){
             </div>
         <form class="form p-4" method="get" name="myform" action="">
             <img src={img}/>
+            
             ENTER YOUR BEAUTIFUL NAME:
             <input class="form-control m-2" type="text"></input>
 
@@ -103,6 +107,12 @@ function Contact(){
          <a href="confettis-p5-js/confettis-p5-js/dist/index.html">   <button type="submit" class=" btn btn-primary padding-top">Submit</button></a>
            
         </form>
+    <br/>
+    <br/>
+    <br/>
+        <h1 className="heading1">USE THIS COMFORTABLE DRAWING BOARD</h1>
+      <App2/>
+    
        </div>
     </React.Fragment>
 

@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  .controls {
+    position: absolute;
+    top: 1400px;
+    right: 30%;
+    height: 4rem;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .controls > * + * {
+    margin-left: 0.5rem;
+  }
+  
+  .controls-input {
+    width: 2rem;
+    padding: 10px;
+    height: 2rem;
+    position: relative;
+    
+    background-color: #797979;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+  }
+  
+  .controls-size {
+    width: auto;
+  }
+  
+  .controls-color {
+    padding: 0.15rem 0.2rem;
+  }
+  
+  .controls-clear  {
+    font-size: 1.2rem;
+    position: relative;
+    top: -10px;
+  }
+  
+  .controls-download  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
